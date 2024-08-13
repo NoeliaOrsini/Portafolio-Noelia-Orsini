@@ -16,11 +16,16 @@
     margin:0;
 }
 
-body{
-    box-sizing: border-box;
-    background-color: var(--color-primaria);
+body {
+    background: linear-gradient(135deg, #DB39D0, #7739DC);
     color: var(--color-secundaria);
-    justify-content: center;
+    font-family: var(--fuente-montserrat);
+    font-size: var(--font-size-base);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .header{
